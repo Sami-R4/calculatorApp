@@ -28,6 +28,6 @@ calculatorApp/|--index.html|--style.css|--script.js|README.md
 1. Clone the repo:
 ```bash
 git clone
-https://github.com/sami-r4/calculatorApp.git
+https://github.com/Sami-R4/calculatorApp.git
 ```
 

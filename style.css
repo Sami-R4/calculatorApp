@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', 'Arial', sans-serif;
 }
 :root{
     --accent-clr: #e63250;
@@ -12,4 +13,11 @@
     --shady-brown: #343434;
     --woody-brown: #3e3133;
     --gray: #848484;
+}
+/* Body Styling */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
