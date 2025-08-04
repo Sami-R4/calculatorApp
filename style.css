@@ -1,1 +1,15 @@
-
+/* Universal Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --accent-clr: #e63250;
+    --background-clr: #1b1b1b;
+    --text-clr: #e3e3e3;
+    --placeholder-gray: #444444;
+    --shady-brown: #343434;
+    --woody-brown: #3e3133;
+    --gray: #848484;
+}
