@@ -137,4 +137,5 @@ ul li.tablinks.active::after{
     position: absolute;
     top: 5px;
     right: 5px;
+    color: var(--gray);
 }

@@ -31,6 +31,14 @@ document.addEventListener("keydown",
         }
     }
 );
+// display operation btn
+document.addEventListener("keydown", 
+    function(event){
+    if(event.key == '+' || event.key == '-' || event.key == 'x' || event.key == '/' || event.key == '.'){
+    displayNumbers.textContent += event.key;
+    }
+    }
+);
 
 // Clear Logic
 // Backspace button
@@ -50,4 +58,34 @@ function deleteLast(){
     chars.pop();
     displayNumbers.textContent = chars.join("");
 };
+// AC button
+function clearDisplay(value){
+    displayNumbers.textContent = '';
+}
+
+// Addition
+function getSum(val1, val2){
+    sum = val1 + val2;
+    return sum;
+}
+
+// Subtract
+function getDifference(val1, val2){
+    diff = val1 - val2;
+    return diff;
+}
+
+// Divide
+function getQuotient(val1, val2){
+    quot = val1 / val2;
+    return quot;
+}
+
+// 
+function getProduct(val1, val2){
+    prod = val1 * val2;
+    return prod;
+}
+
+
 
