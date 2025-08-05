@@ -17,3 +17,18 @@ tabLinks.forEach(button => {
     
    });
 
+// Display on screen
+const displayNumbers = document.getElementById('displayNumbers');
+const displayAnswer = document.getElementById('displayAnswer');
+
+function appendToDisplay(value){
+    displayNumbers.innerHTML += value;
+}
+document.addEventListener("keydown", 
+    function(event){
+        if(event.key >= '0' && event.key<= '9'){
+           displayNumbers.textContent += event.key;
+        }
+    }
+)
+
