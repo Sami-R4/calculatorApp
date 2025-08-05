@@ -30,5 +30,24 @@ document.addEventListener("keydown",
            displayNumbers.textContent += event.key;
         }
     }
+);
+
+// Clear Logic
+// Backspace button
+document.addEventListener("keydown",
+    function(event){
+    if(event.key == 'Backspace'){
+        event.preventDefault();
+        let chars = displayNumbers.textContent.split("");
+    chars.pop();
+    displayNumbers.textContent = chars.join("");
+    }    
+    }
 )
+// Delete button
+function deleteLast(){
+    let chars = displayNumbers.textContent.split("");
+    chars.pop();
+    displayNumbers.textContent = chars.join("");
+};
 
